@@ -146,4 +146,35 @@
         padding: 10px;
         font-size: 10px;
     }
+
+
+
+    @keyframes anim{
+        0%{
+         top: 76%;
+         left: 55%;
+         transform: rotateZ(-35deg) rotateX(180deg);
+        }
+        20%{
+         top: 70.5%;
+         left: 60%;
+         transform: rotateZ(-173deg) rotateX(180deg) rotate(-45deg);
+        }
+        40%{
+         top: 55.5%;
+         left: 54.5%;
+         transform: rotateZ(-173deg) rotateX(180deg) rotate(-45deg);
+        }
+        80%{
+         top: 7%;
+         left: 32.5%;
+         transform: rotateZ(-173deg) rotateX(180deg) rotate(-45deg);
+        }
+        100% {
+         top: 13.5%;
+         left: 27.5%;
+         margin-left: 0px;
+         transform: rotateZ(-173deg) rotateX(180deg) rotate(55deg);
+     }
+     }
 }
